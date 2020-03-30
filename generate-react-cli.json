@@ -1,0 +1,17 @@
+{
+  "component": {
+    "path": "y",
+    "css": {
+      "preprocessor": "css",
+      "module": false,
+      "withStyle": true
+    },
+    "test": {
+      "library": "None",
+      "withTest": false
+    },
+    "withStory": true,
+    "withLazy": true
+  },
+  "usesTypeScript": false
+}

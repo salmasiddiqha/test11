@@ -1,0 +1,85 @@
+{
+    "statusList": [
+    {
+        "id": "all201",
+        "statusName": "All",
+        "statusValue": 201,
+        "priority": "",
+        "color": "",
+        "isFilterable": true,
+        "onClick": true
+    },
+    {
+      "id": "allOk_200",
+      "statusName": "All Ok",
+      "statusValue": 200,
+      "priority": "low",
+      "color": "green",
+      "isFilterable": true,
+      "onClick": true
+    }, {
+        "id": "thresholdError_401",
+        "statusName": "Threshold Errors",
+        "statusValue": 401,
+        "priority": "medium",
+        "color": "yellow",
+        "isFilterable": true,
+        "onClick": true
+    },{
+        "id": "commErr_500",
+        "statusName": "Communication Errors",
+        "statusValue": 500,
+        "priority": "high",
+        "color": "red",
+        "isFilterable": true,
+        "onClick":false
+    }],
+    "cardsList": [
+        {
+            "id": "01",
+            "name": "device 1",
+            "icon": "All Ok",
+            "statusId": "allOk_200",
+            "html": "fa fa-check-circle-o done-color fa-lg"
+        },
+        {
+            "id": "02",
+            "name": "device 2",
+            "icon": "Communication Errors",
+            "statusId": "commErr_500",
+            "html": "fa fa-ban error-color fa-lg"
+        },{
+            "id": "03",
+            "name": "device 3",
+            "icon": "All Ok",
+            "statusId": "allOk_200",
+            "html": "fa fa-check-circle-o done-color fa-lg"
+        },{
+            "id": "04",
+            "name": "salma device",
+            "icon": "Threshold Errors",
+            "statusId": "thresholdError_401",
+            "html": "fa fa-exclamation-triangle warning-color fa-lg"
+        },
+        {
+            "id": "01",
+            "name": "dev device",
+            "icon": "Threshold Errors",
+            "statusId": "thresholdError_401",
+            "html": "fa fa-exclamation-triangle warning-color fa-lg"
+        },
+        {
+            "id": "01",
+            "name": "prod device",
+            "icon": "Communication Errors",
+            "statusId": "commErr_500",
+            "html": "fa fa-ban error-color fa-lg"
+        },{
+            "id": "01",
+            "name": "stage device",
+            "icon": "Threshold Errors",
+            "statusId": "thresholdError_401",
+            "html": "fa fa-exclamation-triangle warning-color fa-lg"
+        }
+    ]
+}
