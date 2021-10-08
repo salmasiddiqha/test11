@@ -8,7 +8,7 @@
     },
     "test": {
       "library": "None",
-      "withTest": true 
+      "withTest": false 
     },
     "withStory": true,
     "withLazy": true
